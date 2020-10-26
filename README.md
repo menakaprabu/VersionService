@@ -6,16 +6,15 @@
 2. Install the downloaded JDK.
 3. Set the java path in the environmental variable.
 
-GitBash to clone and run the application to your local machine.
-Download from git bash based on your machine(MAC or Windows)
-https://git-scm.com/downloads
+# GitBash to clone and run the application to your local machine.
+1. Download from git bash based on your machine(MAC or Windows) https://git-scm.com/downloads
 
-Steps to download the jar.
+# Steps to download the jar.
 
-Go to git repo using the URL. https://github.com/menakaprabu/VersionService.git
-Launch gitbash and go to the directory in which you want to download the application.
-Clone the application using: git clone https://github.com/menakaprabu/VersionService.git
-Run the clean build command to build the jar file ./gradlew clean build
+1. Go to git repo using the URL. https://github.com/menakaprabu/VersionService.git
+2. Launch gitbash and go to the directory in which you want to download the application.
+3. Clone the application using: git clone https://github.com/menakaprabu/VersionService.git
+4. Run the clean build command to build the jar file ./gradlew clean build
 If you do not have permission to gradlew, provide permission using chmod 777 gradlew
 ./gradlew clean build would have generated versionService-0.0.1-SNAPSHOT.jar under cd /build/libs from your current project path.
 Try ls to see the .jar file. It should be versionService-0.0.1-SNAPSHOT.jar
