@@ -1,10 +1,10 @@
 # VersionService
-Prerequisite:
-You must have java 1.8 or above installed on your machine.
-To install java:
-Download java 1.8 from the below URL based on your machine(MAC or Windows) https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-Install the downloaded JDK.
-Set the java path in the environmental variable.
+# Prerequisite:
+1. You must have java 1.8 or above installed on your machine.
+# To install java:
+1. Download java 1.8 from the below URL based on your machine(MAC or Windows) https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+2. Install the downloaded JDK.
+3. Set the java path in the environmental variable.
 
 GitBash to clone and run the application to your local machine.
 Download from git bash based on your machine(MAC or Windows)
