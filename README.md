@@ -17,13 +17,13 @@
 * 		git clone https://github.com/menakaprabu/VersionService.git
 4. Run the below clean build command to build the jar file 
 * 		./gradlew clean build
-If you do not have permission to gradlew, provide permission using 
+If you do not have permission to gradlew, provide permission using and run ./gradlew clean build command
 * 		chmod 777 gradlew
 * 		./gradlew clean build would have generated versionService-0.0.1-SNAPSHOT.jar under 
 * 		cd /build/libs from your current project path.
 Try ls to see the .jar file. It should be versionService-0.0.1-SNAPSHOT.jar
-Run the jar file using 
-* 		java -jar versionService-0.0.1-SNAPSHOT.jar from yourApplicationPath/build/libs
+Run the jar file using below command from yourApplicationPath/build/libs path
+* 		java -jar versionService-0.0.1-SNAPSHOT.jar 
 
 # Endpoint/Functionality validation:
 The application is running on the default 8080 port.
