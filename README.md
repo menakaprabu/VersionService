@@ -7,7 +7,7 @@
 3. Set the java path in the environmental variable.
 
 # GitBash to clone and run the application to your local machine.
-1. Download from git bash based on your machine(MAC or Windows) https://git-scm.com/downloads
+1. Download and install git bash based on your machine(MAC or Windows) https://git-scm.com/downloads
 
 # Steps to download the jar.
 
