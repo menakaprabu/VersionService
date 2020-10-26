@@ -9,8 +9,6 @@ public class VersionController {
 
     @RequestMapping(value = "/versionCheck/{version1}/{version2}")
     public String validateVersion(@PathVariable String version1, @PathVariable String version2) {
-        System.out.println("VersionVal 1 = "+version1);
-        System.out.println("VersionVal 2 = "+version2);
         try {
            int output = compareVersion(version1, version2);
            System.out.println("Output = "+output);
@@ -24,6 +22,11 @@ public class VersionController {
         }catch (Exception e){
             return "Please check the input entered..";
         }
+    }
+
+    @RequestMapping(value = "/versionCheck/{version1}/")
+    public String exceptionForWrongInput(@PathVariable String version1) {
+            return "You should enter 2 version values to compare";
     }
 
     /**
