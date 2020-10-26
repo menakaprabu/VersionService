@@ -13,16 +13,21 @@
 
 1. Go to git repo using the URL. https://github.com/menakaprabu/VersionService.git
 2. Launch gitbash and go to the directory in which you want to download the application.
-3. Clone the application using: git clone https://github.com/menakaprabu/VersionService.git
-4. Run the clean build command to build the jar file ./gradlew clean build
-If you do not have permission to gradlew, provide permission using chmod 777 gradlew
-./gradlew clean build would have generated versionService-0.0.1-SNAPSHOT.jar under cd /build/libs from your current project path.
+3. Clone the application using: 
+* 		git clone https://github.com/menakaprabu/VersionService.git
+4. Run the below clean build command to build the jar file 
+* 		./gradlew clean build
+If you do not have permission to gradlew, provide permission using 
+* 		chmod 777 gradlew
+* 		./gradlew clean build would have generated versionService-0.0.1-SNAPSHOT.jar under 
+* 		cd /build/libs from your current project path.
 Try ls to see the .jar file. It should be versionService-0.0.1-SNAPSHOT.jar
-Run the jar file using java -jar versionService-0.0.1-SNAPSHOT.jar from yourApplicationPath/build/libs
+Run the jar file using 
+* 		java -jar versionService-0.0.1-SNAPSHOT.jar from yourApplicationPath/build/libs
 
-Endpoint/Functionality validation:
+# Endpoint/Functionality validation:
 The application is running on the default 8080 port.
 Hit the below URL
-http://localhost:8080/versionCheck/1.0.1/1.0.1
+* 		http://localhost:8080/versionCheck/1.0.1/1.0.1
 
 You can change the values and validate all the version values.
